@@ -185,6 +185,19 @@ nav
 	z-index: 2
 	&_white
 		color: #fff
+.link
+	text-align: center
+	margin: 0 auto
+	margin-bottom: 25px
+	a
+		font-size: 20px
+		line-height: 38px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		color: $second-color
+		display-block: center
+		text-decoration: none	
 
 .subtitle
 	position: relative
@@ -230,6 +243,9 @@ nav
 		width: 100%
 		background-color: #070716
 		z-index: 1
+
+
+
 .require
 	padding: 68px 0 84px 0
 	position: relative
@@ -243,6 +259,7 @@ nav
 		color: #9d1010d1
 		font-size: 22px
 		font-weight: 400
+		text-shadow: $txt-shadow
 		span
 			vertical-align: sub
 			font-size: 11px
@@ -252,10 +269,11 @@ nav
 		padding-left: 50px
 		margin-top: 20px
 		li
-			// display: inline-block
+			display: inline-block
 			position: relative
 			font-size: 17px
 			font-weight: 300
+			text-shadow: $txt-shadow
 			line-height: 24px
 			margin-bottom: 10px
 			&:before
@@ -276,8 +294,10 @@ nav
 	.warning
 		.require_title
 			color: $second-color
+			text-shadow: $txt-shadow
 		.require_list
 			li
+				text-shadow: $txt-shadow
 				&:before
 					background: url('../icons/check_red.svg') center (center / cover) no-repeat
 
