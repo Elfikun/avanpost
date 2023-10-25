@@ -142,7 +142,8 @@ nav
 		background-color: $second-color
 		border-radius: 100%
 	&_descr
-		width: 343px
+		width: 360px
+		
 	&_subtitle
 		line-height: 21px
 		color: $main-color
@@ -150,10 +151,17 @@ nav
 		font-size: 22px
 		font-weight: 400
 	&_text
+		display: flex
+		justify-content: center
+		align-items: center
 		color: #202020
+		text-indent: 35px
 		font-size: 17px
 		font-weight: 300
 		line-height: 23px
+		&__top 
+			text-indent: 35px
+			padding-top: 53px
 
 .label
 	position: relative
@@ -247,7 +255,7 @@ nav
 .require
 	padding: 68px 0 84px 0
 	position: relative
-	background: linear-gradient(rgba(237, 248, 248, 0.75), rgba(95, 95, 95, 0.9)), url('../img/Polygraph2.jpg') center (center / cover) no-repeat
+	background: linear-gradient(rgba(237, 248, 248, 0.75), rgba(95, 95, 95, 0.555)), url('../img/Polygraph2.jpg') center (center / cover) no-repeat
 	&_block
 		margin: 33px 0
 		z-index: 0
@@ -255,6 +263,8 @@ nav
 			margin-bottom: 0
 	&_title
 		color: #9d1010d1
+		justify-content: center
+		text-indent: 35px
 		font-size: 22px
 		font-weight: 400
 		text-shadow: $txt-shadow
