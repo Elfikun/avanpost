@@ -107,6 +107,27 @@ nav
 		line-height: 24px
 		text-align: center
 		margin-top: 35px
+	&_list
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 20px
+		li
+			display: inline-block
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			text-shadow: $txt-shadow
+			line-height: 24px
+			margin-bottom: 10px
+			&:before
+				content: ''
+				display: block
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px
+				height: 20px
+				background: url('../icons/check_blue.svg') center (center / cover) no-repeat
 	&_btn
 		display: block
 		margin: 118px auto 0 auto
@@ -143,7 +164,7 @@ nav
 		border-radius: 100%
 	&_descr
 		width: 360px
-		
+
 	&_subtitle
 		line-height: 21px
 		color: $main-color
@@ -159,7 +180,7 @@ nav
 		font-size: 17px
 		font-weight: 300
 		line-height: 23px
-		&__top 
+		&__top
 			text-indent: 35px
 			padding-top: 53px
 
@@ -268,9 +289,13 @@ nav
 		font-size: 22px
 		font-weight: 400
 		text-shadow: $txt-shadow
+		text-transform: uppercase
+		text-align: center
 		span
+			margin-top: 10px
 			font-size: 16px
 			color: $main-color
+			text-transform: none
 	&_list
 		list-style-type: none
 		padding-left: 50px
